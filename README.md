@@ -4,7 +4,7 @@ This repository demonstrates how to fine-tune and use a GPT-2 based language mod
 
 ## Overview
 
-The goal of this project is to provide a practical demonstration of training language models using pre-trained GPT-2 weights. GPT-2 is a generative transformer model pre-trained on large corpora to predict the next token in text sequences, and can be adapted to downstream tasks with additional training. :contentReference[oaicite:0]{index=0}
+The goal of this project is to provide a practical demonstration of training language models using pre-trained GPT-2 weights. GPT-2 is a generative transformer model pre-trained on large corpora to predict the next token in text sequences, and can be adapted to downstream tasks with additional training. 
 
 This project includes:
 
