@@ -8,9 +8,22 @@ The goal of this project is to provide a practical demonstration of training lan
 
 This project includes:
 
-- A Jupyter notebook for fine-tuning and training (`LLM_finetuning_training.ipynb`).
-- Supporting scripts and configuration to prepare datasets and run experiments.
-- Instructions to reproduce training and inference workflows.
+This comprehensive notebook implements a complete Large Language Model (LLM) pipeline based on the GPT-2 architecture. It transitions from raw text processing to a functional generative model. Key technical implementations include:
+
+
+Architecture Construction: Manual implementation of the Transformer block, including Causal Multi-Head Self-Attention, Layer Normalization, and Feed-Forward networks. 
+
+
+
+Data Pipeline: Implementation of Byte-Pair Encoding (BPE) tokenization and sliding window dataset creation for next-token prediction. 
+
+
+
+Weight Integration: Procedures for loading and mapping pre-trained weights from the GPT-2 (124M) model into the custom-built architecture. 
+
+
+
+Fine-Tuning & Inference: Training loops for domain-specific adaptation and temperature-controlled sampling for text generation.
 
 ## Repository Contents
 
